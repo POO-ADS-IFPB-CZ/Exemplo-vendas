@@ -31,4 +31,8 @@ public class Venda {
         return true;
     }
 
+    public Item[] getItens(){
+        return Arrays.copyOf(itens, quantidadeItens);
+    }
+
 }
